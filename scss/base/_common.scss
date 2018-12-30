@@ -1,0 +1,25 @@
+/* Adding Fonts */
+@include font-face(Roboto-Black, "./Fonts/Roboto-Black", normal, normal, eot woff2 woff ttf);
+@include font-face(Roboto-Bold, "./Fonts/Roboto-Bold", normal, normal, eot woff2 woff ttf);
+@include font-face(Roboto-Light, "./Fonts/Roboto-Light", normal, normal, eot woff2 woff ttf);
+@include font-face(Roboto-Medium, "./Fonts/Roboto-Medium", normal, normal, eot woff2 woff ttf);
+@include font-face(Roboto-Regular, "./Fonts/Roboto-Regular", normal, normal, eot woff2 woff ttf);
+
+/******************************/
+
+/* Base Fonts */
+$robotoBlack: Roboto-Black;
+$robotoBold: Roboto-Bold;
+$robotoLight: Roboto-Light;
+$robotoMedium: Roboto-Medium;
+$robotoRegular: Roboto-Regular;
+
+/******************************/
+
+/* Base Colors */
+$primary-one-color: #3677fd;
+$primary-two-color: #3677fe;
+$secondary-color: #5a5a5a;
+$tertiary-color: #ccc;
+$white: #fff;
+$black: #000; 

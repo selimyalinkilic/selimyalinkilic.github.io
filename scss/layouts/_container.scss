@@ -1,0 +1,47 @@
+section{
+  width: 100%;
+  height: auto;
+  float: left;
+
+  h2{
+    font-family: $robotoLight;
+    text-align: center;
+    color: $primary-one-color;
+    font-size: 36px;
+    margin: 70px 0px 30px 0px;
+
+    @media only screen and (max-width: 767px) {
+      margin: 30px 0 30px 0; 
+    }
+  }
+}
+
+.container{
+  width: 820px;
+  margin:0 auto;
+  display: table;
+
+  @media only screen and (max-width: 820px) {
+    width: 90%;
+  }
+
+}
+
+/* anasayfa-hakkimda bolumu */
+#about{
+  height: 350px;background: $white;
+  @media only screen and (max-width:767px){
+    height: auto;
+  }
+  p{
+    font-family: $robotoRegular; 
+    font-size: 13px; 
+    color: $secondary-color; 
+    text-align: center; 
+    line-height: 25px;
+    @media only screen and (max-width:767px){
+      margin-bottom: 20px;
+    }
+  } 
+}
+

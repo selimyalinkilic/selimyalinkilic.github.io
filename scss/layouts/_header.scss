@@ -1,0 +1,126 @@
+header{
+  width: 100%;
+  float: left;
+  background: url(../img/header_bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .animated{
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+  }
+
+  @media only screen and (max-width: 1024px){
+    height: 450px;
+  } 
+}
+.headerDetail{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.personalImageContainer{
+  width: 160px;
+  height:160px;
+  margin: 0 auto;
+  display: table;
+  margin-top: 15%;
+  position: relative;
+  @media only screen and (max-width: 1024px){
+    margin-top: 50px;
+  } 
+}
+
+.imageBgFirst{
+  width: 160px; 
+  height: 160px; 
+  border-radius: 100%; 
+  background: rgba(255, 255, 255, 0.10); 
+  position: absolute;
+}
+
+.imageBgSecond{
+  width: 140px; 
+  height: 140px; 
+  border-radius: 100%; 
+  background: rgba(255, 255, 255, 0.15); 
+  position: absolute;
+  margin-left: 10px; 
+  margin-top: 10px;
+}
+
+.imageBgThird{
+  width: 120px; 
+  height: 120px; 
+  border-radius: 100%;
+  background-image: url(../img/personal-Image.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-color:$white;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.headerText{
+  margin:0 auto;
+  display: table;
+  width: auto;
+  margin-top: 2%;
+
+  h1{
+    color: $white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    font-family: $robotoBlack;
+  }
+
+  p, a{
+    color: $white;
+    font-family: $robotoLight;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+.downArrow{
+  margin: 0 auto; 
+  display: table!important;
+  margin-top: 15%; 
+  font-size: 30px; 
+  color: $white;
+  cursor: pointer;
+  @media only screen and (max-width: 1024px){
+   display: none!important; 
+  }
+}
+
+.lang{
+  width: 30px;
+  height: auto;
+  margin:0 auto;
+  display: table;
+  margin-top: 20px;
+
+  a{
+    float: left;
+    width: auto;
+  }  
+  i{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+  }
+}
+
+.trFlag{
+  background: url(../img/tr.png) no-repeat;
+}
+
+.enFlag{
+  background: url(../img/en.png) no-repeat;
+}
